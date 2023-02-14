@@ -5,14 +5,14 @@ function Counter() {
   const handleIncrement = () => {
     setCount(count + 1);
   };
-  const handledecrement = () => {
+  const handleDecrement = () => {
     setCount(count - 1);
   };
   return (
     <div>
       <h1>Increase and decrease count</h1>
       <button onClick={handleIncrement}>Increment</button>
-      <button onClick={handledecrement}>Decrement</button>
+      <button onClick={handleDecrement}>Decrement</button>
       <h1>{count}</h1>
     </div>
   );

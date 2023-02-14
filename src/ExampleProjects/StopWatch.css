@@ -1,0 +1,29 @@
+
+.time-Style{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 100px;
+}
+.btn-Style {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+}
+.btn-One, .btn-Two, .btn-Three{
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 50px;
+}
+.header-style{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}

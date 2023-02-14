@@ -3,12 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Counter from "./ExampleProjects/Counter";
+// import Counter from "./ExampleProjects/Counter";
+// import Search from "./ExampleProjects/Search";
+import StopWatch from "./ExampleProjects/StopWatch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Counter />
+    <StopWatch />
   </React.StrictMode>
 );
 
